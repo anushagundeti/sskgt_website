@@ -27,7 +27,7 @@ export default function Vehicles() {
       <div className="max-w-6xl mx-auto mb-8 flex justify-between items-center">
         <div>
           <h2 className="text-3xl md:text-4xl font-bold text-blue-900 flex items-center gap-2">
-            <Truck className="text-teal-600" size={32} />
+            <Truck className="text-blue-600" size={32} />
             Our Fleet
           </h2>
           <p className="text-gray-600 mt-1">Manage and track all company vehicles.</p>

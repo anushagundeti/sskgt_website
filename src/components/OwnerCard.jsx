@@ -18,12 +18,12 @@ export default function OwnerCard() {
         {/* Info Section */}
         <div className="p-6 md:w-1/2 flex flex-col justify-center">
           <h2 className="text-2xl font-bold text-blue-900 mb-1">Mr. GUNDETI VENU</h2>
-          <p className="text-teal-600 font-medium mb-1">Founder & CEO, SSKGT</p>
-          <p className="text-teal-600 font-medium mb-4">SRI SAI KRISHNA GOODS & TRANSPORT </p>
+          <p className="text-blue-600 font-medium mb-1">Founder & CEO, SSKGT</p>
+          <p className="text-blue-600 font-medium mb-4">SRI SAI KRISHNA GOODS & TRANSPORT </p>
           <p className="text-gray-700 mb-6">
             With over 30 years of experience in the logistics and transportation industry, Mr. Venu has built SSKGT from the ground up. His vision is to provide reliable and efficient services while fostering a supportive work environment for all employees. He believes in leveraging technology to streamline operations and enhance customer satisfaction.
           </p>
-          <div className="flex items-center gap-6 text-teal-700 font-medium">
+          <div className="flex items-center gap-6 text-blue-700 font-medium">
             <div className="flex items-center gap-2">
               <Mail size={18} />
               <span>venu.gundeti@gmail.com</span>

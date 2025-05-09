@@ -45,7 +45,7 @@ export default function Services() {
     <section className="bg-gray-50 py-16 px-4">
       <div className="max-w-6xl mx-auto text-center">
         <h2 className="text-3xl md:text-4xl font-bold text-blue-900 mb-2 flex items-center justify-center gap-2">
-          <ListChecks size={32} className="text-teal-600" />
+          <ListChecks size={32} className="text-blue-600" />
           Our Services
         </h2>
         <p className="text-gray-600 mb-12 max-w-2xl mx-auto">
@@ -58,7 +58,7 @@ export default function Services() {
               key={index}
               className="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow p-6 text-left flex gap-4 items-start"
             >
-              <div className="bg-teal-600 text-white rounded-full w-12 h-12 flex items-center justify-center">
+              <div className="bg-blue-900 text-white rounded-full w-12 h-12 flex items-center justify-center">
                 {service.icon}
               </div>
               <div>
@@ -79,7 +79,7 @@ export default function Services() {
       <div className="text-center mt-6">
   <button
     onClick={handleGetStarted}
-    className="bg-teal-900 text-white font-semibold px-6 py-3 rounded-md shadow-md bg-blue-900 transition"
+    className="bg-blue-900 text-white font-semibold px-6 py-3 rounded-md shadow-md bg-blue-900 transition"
   >
     Get Started
   </button>

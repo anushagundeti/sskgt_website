@@ -37,7 +37,7 @@ export default function App() {
               key={to}
               to={to}
               className={({ isActive }) =>
-                `flex items-center gap-1 px-4 py-2 rounded-md transition ${isActive ? "bg-teal-600 text-white" : "text-blue-900 hover:text-teal-600"}`
+                `flex items-center gap-1 px-4 py-2 rounded-md transition ${isActive ? "bg-blue-900 text-white" : "text-blue-900 hover:text-blue-600"}`
               }
             >
               {icon}

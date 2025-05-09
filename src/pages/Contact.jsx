@@ -17,27 +17,27 @@ export default function Contact() {
           <h3 className="text-xl font-semibold text-blue-900 mb-6">Contact Information</h3>
           <ul className="space-y-6">
             <li className="flex items-start gap-4">
-              <Mail className="text-teal-600" size={24} />
+              <Mail className="text-blue-600" size={24} />
               <div>
                 <h4 className="font-bold text-blue-900">Email Us</h4>
-                <p className="text-teal-600">venu.gundeti@gmail.com</p>
+                <p className="text-blue-600">venu.gundeti@gmail.com</p>
                 <p className="text-sm text-gray-600">We typically respond within 24 hours.</p>
               </div>
             </li>
             <li className="flex items-start gap-4">
-              <Phone className="text-teal-600" size={24} />
+              <Phone className="text-blue-600" size={24} />
               <div>
                 <h4 className="font-bold text-blue-900">Call Us</h4>
-                <p className="text-teal-600">9246933445</p>
+                <p className="text-blue-600">9246933445</p>
                 <p className="text-sm text-gray-600">Mon–Fri, 9am – 5pm</p>
               </div>
             </li>
             <li className="flex items-start gap-4">
-              <MapPin className="text-teal-600" size={24} />
+              <MapPin className="text-blue-600" size={24} />
               <div>
                 <h4 className="font-bold text-blue-900">Our Office</h4>
                 <p className="text-gray-700">S.No:2, Bypass Road, Bommakal, Karimnagar, 505001, Telangana</p>
-                <a href="https://maps.google.com" className="text-sm text-teal-600 hover:underline">Get Directions</a>
+                <a href="https://maps.google.com" className="text-sm text-blue-600 hover:underline">Get Directions</a>
               </div>
             </li>
           </ul>
@@ -46,7 +46,7 @@ export default function Contact() {
             <h4 className="font-bold text-blue-900 mb-2">Follow Us</h4>
             <div className="flex gap-4">
               <Facebook className="text-gray-600 hover:text-blue-600 cursor-pointer" />
-              <Twitter className="text-gray-600 hover:text-blue-400 cursor-pointer" />
+              <Twitter className="text-gray-600 hover:text-blue-700 cursor-pointer" />
               <Linkedin className="text-gray-600 hover:text-blue-700 cursor-pointer" />
             </div>
           </div>
@@ -76,7 +76,7 @@ export default function Contact() {
             </div>
             <button
               type="submit"
-              className="flex items-center gap-2 bg-teal-600 text-white font-semibold px-6 py-3 rounded-md hover:bg-teal-700 transition"
+              className="flex items-center gap-2 bg-blue-900 text-white font-semibold px-6 py-3 rounded-md hover:bg-blue-700 transition"
             >
               <Send size={18} />
               Send Message

@@ -9,7 +9,7 @@ export default function FuelLogModal({ vehicleId, logs, onClose }) {
       <div className="bg-white w-full max-w-2xl rounded-lg shadow-xl ring-1 ring-black/10 p-6 relative overflow-auto max-h-[90vh]">
         <button
           onClick={onClose}
-          className="absolute top-4 right-4 text-teal-600 hover:text-teal-800"
+          className="absolute top-4 right-4 text-blue-600 hover:text-blue-800"
         >
           <X size={24} />
         </button>

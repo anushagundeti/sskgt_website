@@ -33,7 +33,7 @@ export default function EmployeesPage() {
     <section className="bg-gray-50 py-12 px-4 min-h-screen">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-3xl font-bold text-blue-900 mb-6 flex items-center gap-2">
-          <User className="text-teal-600" /> Employee Management
+          <User className="text-blue-600" /> Employee Management
         </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
@@ -57,11 +57,11 @@ export default function EmployeesPage() {
           <div className="bg-white p-6 rounded-lg shadow-lg">
             <div className="flex justify-between items-center mb-4">
               <h3 className="text-2xl font-bold text-blue-900 flex items-center gap-2">
-                <CalendarCheck className="text-teal-600" /> Attendance: {selectedEmployee.name}
+                <CalendarCheck className="text-blue-600" /> Attendance: {selectedEmployee.name}
               </h3>
               <button
                 onClick={() => setSelectedEmployee(null)}
-                className="text-sm text-teal-600 hover:underline"
+                className="text-sm text-blue-600 hover:underline"
               >
                 Close
               </button>

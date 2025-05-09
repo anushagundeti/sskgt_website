@@ -33,15 +33,15 @@ export default function Footer() {
         <div>
           <h3 className="text-lg font-bold text-blue-900 mb-2">Contact Us</h3>
           <ul className="space-y-2">
-            <li className="flex items-center gap-2 text-teal-700">
+            <li className="flex items-center gap-2 text-blue-700">
               <Mail size={16} /> venu.gundeti@gmail.com
             </li>
-            <li className="flex items-center gap-2 text-teal-700">
+            <li className="flex items-center gap-2 text-blue-700">
               <Phone size={16} /> 9246933445
             </li>
             <li className="flex gap-4 pt-2 text-gray-600">
               <Facebook className="hover:text-blue-600 cursor-pointer" size={18} />
-              <Twitter className="hover:text-blue-400 cursor-pointer" size={18} />
+              <Twitter className="hover:text-blue-700 cursor-pointer" size={18} />
               <Linkedin className="hover:text-blue-700 cursor-pointer" size={18} />
             </li>
           </ul>

@@ -9,7 +9,7 @@ export default function About() {
       {/* Header */}
       <div className="text-center max-w-3xl mx-auto mb-16">
         <div className="flex justify-center mb-2">
-          <Info size={28} className="text-teal-600" />
+          <Info size={28} className="text-blue-600" />
         </div>
         <h1 className="text-3xl md:text-4xl font-bold text-blue-900">About SSKGT</h1>
         <p className="text-gray-600 mt-2">
@@ -39,7 +39,7 @@ export default function About() {
       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 text-center mb-12">
         {/* Mission */}
         <div className="bg-white rounded-lg shadow-md p-8">
-          <div className="bg-teal-600 rounded-full w-16 h-16 mx-auto mb-4 flex items-center justify-center">
+          <div className="bg-blue-900 rounded-full w-16 h-16 mx-auto mb-4 flex items-center justify-center">
             <Target size={28} color="white" />
           </div>
           <h3 className="text-xl font-bold text-blue-900 mb-2">Our Mission</h3>
@@ -50,7 +50,7 @@ export default function About() {
 
         {/* Team */}
         <div className="bg-white rounded-lg shadow-md p-8">
-          <div className="bg-teal-600 rounded-full w-16 h-16 mx-auto mb-4 flex items-center justify-center">
+          <div className="bg-blue-900 rounded-full w-16 h-16 mx-auto mb-4 flex items-center justify-center">
             <Users size={28} color="white" />
           </div>
           <h3 className="text-xl font-bold text-blue-900 mb-2">Our Team</h3>
@@ -61,7 +61,7 @@ export default function About() {
 
         {/* Values */}
         <div className="bg-white rounded-lg shadow-md p-8">
-          <div className="bg-teal-600 rounded-full w-16 h-16 mx-auto mb-4 flex items-center justify-center">
+          <div className="bg-blue-900 rounded-full w-16 h-16 mx-auto mb-4 flex items-center justify-center">
             <ShieldCheck size={28} color="white" />
           </div>
           <h3 className="text-xl font-bold text-blue-900 mb-2">Our Values</h3>

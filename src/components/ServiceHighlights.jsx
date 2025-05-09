@@ -25,7 +25,7 @@ export default function ServiceHighlights() {
     <section className="bg-gray-50 py-16">
       <div className="max-w-6xl mx-auto px-4 text-center">
         <h2 className="text-3xl md:text-4xl font-bold text-blue-900 mb-12">
-          Why Choose <span className="text-teal-600">SSKGT?</span>
+          Why Choose <span className="text-blue-600">SSKGT?</span>
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {services.map((service, index) => (
@@ -34,7 +34,7 @@ export default function ServiceHighlights() {
               className="bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow p-8 text-center"
             >
               <div className="flex justify-center items-center mb-4">
-                <div className="bg-teal-600 rounded-full w-16 h-16 flex items-center justify-center">
+                <div className="bg-blue-900 rounded-full w-16 h-16 flex items-center justify-center">
                   {React.cloneElement(service.icon, {
                     size: 28,
                     strokeWidth: 2,
