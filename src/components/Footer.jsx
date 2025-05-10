@@ -10,12 +10,14 @@ import { Link } from 'react-router-dom';
 
 export default function Footer() {
   return (
-    <footer className="bg-white border-t border-gray-200 mt-20">
-      <div className="max-w-6xl mx-auto px-4 py-12 grid grid-cols-1 md:grid-cols-3 gap-8 text-sm text-gray-700">
+    <footer className="bg-white border-t border-gray-200 mt-20 text-sm md:text-base">
+      <div className="max-w-6xl mx-auto px-4 md:px-8 py-10 md:py-12 grid grid-cols-1 md:grid-cols-3 gap-8 text-gray-700">
         {/* Brand Section */}
         <div>
           <h3 className="text-lg font-bold text-blue-900 mb-2">SSKGT</h3>
-          <p>Efficiently managing your fleet, ensuring reliability and professionalism.</p>
+          <p className="leading-relaxed">
+            Efficiently managing your fleet, ensuring reliability and professionalism.
+          </p>
         </div>
 
         {/* Quick Links */}
@@ -39,7 +41,7 @@ export default function Footer() {
             <li className="flex items-center gap-2 text-blue-700">
               <Phone size={16} /> 9246933445
             </li>
-            <li className="flex gap-4 pt-2 text-gray-600">
+            <li className="pt-3 flex justify-start md:justify-start gap-4 text-gray-600">
               <Facebook className="hover:text-blue-600 cursor-pointer" size={18} />
               <Twitter className="hover:text-blue-700 cursor-pointer" size={18} />
               <Linkedin className="hover:text-blue-700 cursor-pointer" size={18} />

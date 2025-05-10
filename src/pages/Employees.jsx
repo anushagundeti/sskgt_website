@@ -30,20 +30,20 @@ export default function EmployeesPage() {
   const [selectedEmployee, setSelectedEmployee] = useState(null);
 
   return (
-    <section className="bg-gray-50 py-12 px-4 min-h-screen">
+    <section className="bg-gray-50 py-12 sm:py-16 px-4 sm:px-6 min-h-screen">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-3xl font-bold text-blue-900 mb-6 flex items-center gap-2">
+        <h2 className="text-2xl sm:text-3xl font-bold text-blue-900 mb-6 flex items-center gap-2">
           <User className="text-blue-600" /> Employee Management
         </h2>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
           {employees.map((emp) => (
             <div
               key={emp.id}
               className="bg-white p-4 rounded-lg shadow-md hover:shadow-lg cursor-pointer transition"
               onClick={() => setSelectedEmployee(emp)}
             >
-              <h3 className="text-xl font-semibold text-blue-800 mb-1">{emp.name}</h3>
+              <h3 className="text-lg sm:text-xl font-semibold text-blue-800 mb-1">{emp.name}</h3>
               <p className="text-sm text-gray-600">ID: {emp.id}</p>
               <p className="text-sm text-gray-600">Role: {emp.role}</p>
               <p className="text-sm text-gray-600 flex items-center gap-1">
@@ -54,9 +54,9 @@ export default function EmployeesPage() {
         </div>
 
         {selectedEmployee && (
-          <div className="bg-white p-6 rounded-lg shadow-lg">
-            <div className="flex justify-between items-center mb-4">
-              <h3 className="text-2xl font-bold text-blue-900 flex items-center gap-2">
+          <div className="bg-white p-4 sm:p-6 rounded-lg shadow-lg overflow-x-auto">
+            <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-3 mb-4">
+              <h3 className="text-xl sm:text-2xl font-bold text-blue-900 flex items-center gap-2">
                 <CalendarCheck className="text-blue-600" /> Attendance: {selectedEmployee.name}
               </h3>
               <button
@@ -67,7 +67,7 @@ export default function EmployeesPage() {
               </button>
             </div>
 
-            <table className="w-full text-sm border-collapse">
+            <table className="w-full min-w-[480px] text-sm border-collapse">
               <thead className="bg-gray-100 text-gray-600 uppercase text-xs">
                 <tr>
                   <th className="px-4 py-2 text-left">Date</th>

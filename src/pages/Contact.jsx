@@ -3,25 +3,25 @@ import { Mail, Phone, MapPin, Send, Facebook, Twitter, Linkedin } from 'lucide-r
 
 export default function Contact() {
   return (
-    <section className="bg-gray-50 py-16 px-4">
-      <div className="text-center mb-12">
-        <h2 className="text-3xl md:text-4xl font-bold text-blue-900">Get in Touch</h2>
-        <p className="text-gray-600 mt-2 max-w-2xl mx-auto">
+    <section className="bg-gray-50 py-12 sm:py-16 px-4 sm:px-6">
+      <div className="text-center mb-10 sm:mb-12">
+        <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-blue-900">Get in Touch</h2>
+        <p className="text-gray-600 mt-2 max-w-2xl mx-auto text-sm sm:text-base">
           We're here to help and answer any question you might have. We look forward to hearing from you!
         </p>
       </div>
 
-      <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-8">
+      <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8">
         {/* Contact Info Card */}
-        <div className="bg-white p-8 rounded-xl shadow-md">
-          <h3 className="text-xl font-semibold text-blue-900 mb-6">Contact Information</h3>
-          <ul className="space-y-6">
+        <div className="bg-white p-6 sm:p-8 rounded-xl shadow-md">
+          <h3 className="text-lg sm:text-xl font-semibold text-blue-900 mb-6">Contact Information</h3>
+          <ul className="space-y-6 text-sm sm:text-base">
             <li className="flex items-start gap-4">
               <Mail className="text-blue-600" size={24} />
               <div>
                 <h4 className="font-bold text-blue-900">Email Us</h4>
                 <p className="text-blue-600">venu.gundeti@gmail.com</p>
-                <p className="text-sm text-gray-600">We typically respond within 24 hours.</p>
+                <p className="text-gray-600 text-xs sm:text-sm">We typically respond within 24 hours.</p>
               </div>
             </li>
             <li className="flex items-start gap-4">
@@ -29,14 +29,14 @@ export default function Contact() {
               <div>
                 <h4 className="font-bold text-blue-900">Call Us</h4>
                 <p className="text-blue-600">9246933445</p>
-                <p className="text-sm text-gray-600">Mon–Fri, 9am – 5pm</p>
+                <p className="text-gray-600 text-xs sm:text-sm">Mon–Fri, 9am – 5pm</p>
               </div>
             </li>
             <li className="flex items-start gap-4">
               <MapPin className="text-blue-600" size={24} />
               <div>
                 <h4 className="font-bold text-blue-900">Our Office</h4>
-                <p className="text-gray-700">S.No:2, Bypass Road, Bommakal, Karimnagar, 505001, Telangana</p>
+                <p className="text-gray-700 text-sm sm:text-base">S.No:2, Bypass Road, Bommakal, Karimnagar, 505001, Telangana</p>
                 <a href="https://maps.google.com" className="text-sm text-blue-600 hover:underline">Get Directions</a>
               </div>
             </li>
@@ -53,10 +53,10 @@ export default function Contact() {
         </div>
 
         {/* Contact Form */}
-        <div className="bg-white p-8 rounded-xl shadow-md">
-          <h3 className="text-xl font-semibold text-blue-900 mb-6">Send Us a Message</h3>
-          <form className="space-y-4">
-            <div className="grid md:grid-cols-2 gap-4">
+        <div className="bg-white p-6 sm:p-8 rounded-xl shadow-md">
+          <h3 className="text-lg sm:text-xl font-semibold text-blue-900 mb-6">Send Us a Message</h3>
+          <form className="space-y-4 text-sm sm:text-base">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <div>
                 <label className="block font-medium text-blue-900 mb-1">Full Name</label>
                 <input type="text" placeholder="Your Name" className="w-full border border-gray-300 rounded-md p-2" />
